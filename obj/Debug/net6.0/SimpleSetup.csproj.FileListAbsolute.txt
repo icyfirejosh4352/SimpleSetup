@@ -13,3 +13,8 @@ D:\SimpleSetup\obj\Debug\net6.0\refint\SimpleSetup.dll
 D:\SimpleSetup\obj\Debug\net6.0\SimpleSetup.pdb
 D:\SimpleSetup\obj\Debug\net6.0\SimpleSetup.genruntimeconfig.cache
 D:\SimpleSetup\obj\Debug\net6.0\ref\SimpleSetup.dll
+D:\SimpleSetup\app\SimpleSetup.exe
+D:\SimpleSetup\app\SimpleSetup.deps.json
+D:\SimpleSetup\app\SimpleSetup.runtimeconfig.json
+D:\SimpleSetup\app\SimpleSetup.dll
+D:\SimpleSetup\app\SimpleSetup.pdb
