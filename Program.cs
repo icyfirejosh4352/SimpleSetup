@@ -5,7 +5,7 @@ using System.Diagnostics;
 Console.WriteLine("Hello!\nThis is a TEMPORARY personal program of mine to quickly setup my pc!\n");
 Console.WriteLine("note: this program has a chance of becoming a full-blown app instead of a CLI.\n");
 Console.WriteLine("what would you like to do today?\nanimation - a setup consisting of chrome and pencil2d.");
-Console.WriteLine("pixel art - a setup that boots up a yt tutorial playlist and libresprite.");
+Console.WriteLine("pixel art - a setup that boots up a yt tutorial playlist and libresprite.\n youtube - just youtube and chill.");
 SimpleSetup();
 static void SimpleSetup()
 {
@@ -22,6 +22,13 @@ static void SimpleSetup()
     {
         System.Diagnostics.Process pros = new System.Diagnostics.Process();
         pros.StartInfo.FileName = "D:\\SimpleSetup\\BatchFIles\\pixel art.bat";
+        pros.StartInfo.WorkingDirectory = "D:\\SimpleSetup\\BatchFIles\\workdir";
+        pros.Start();
+    }
+    else if (userInput == "youtube")
+    {
+        System.Diagnostics.Process pros = new System.Diagnostics.Process();
+        pros.StartInfo.FileName = "D:\\SimpleSetup\\BatchFIles\\youtube.bat";
         pros.StartInfo.WorkingDirectory = "D:\\SimpleSetup\\BatchFIles\\workdir";
         pros.Start();
     }
