@@ -4,3 +4,4 @@ cd "D:\animation.lol\Pencil2D"
 start pencil2d.exe
 
 start www.youtube.com
+EXIT
