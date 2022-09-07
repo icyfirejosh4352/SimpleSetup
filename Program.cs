@@ -5,7 +5,7 @@ using System.Diagnostics;
 Console.WriteLine("Hello!\nThis is a TEMPORARY personal program of mine to quickly setup my pc!\n");
 Console.WriteLine("note: this program has a chance of becoming a full-blown app instead of a CLI.\n");
 Console.WriteLine("what would you like to do today?\nanimation - a setup consisting of chrome and pencil2d.");
-Console.WriteLine("pixel art - a setup that boots up a yt tutorial playlist and libresprite.\n youtube - just youtube and chill.");
+Console.WriteLine("pixel art - a setup that boots up a yt tutorial playlist and libresprite.\nyoutube - just youtube and chill.");
 SimpleSetup();
 static void SimpleSetup()
 {
@@ -39,3 +39,5 @@ static void SimpleSetup()
         SimpleSetup();
     }
 }
+Console.WriteLine("Press any key to exit.");
+Console.ReadKey();
