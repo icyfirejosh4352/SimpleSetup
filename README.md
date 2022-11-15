@@ -1,5 +1,5 @@
 # SimpleSetup
-# NOTE: A overhaul with WinUI 3 is being worked on. This repo will be updated soon.
+# NOTE: A overhaul with ~~WinUI 3~~ .NET MAUI is being worked on. This repo will be updated soon.
 *a simple CLI C# program to setup your computer for anything.*
 
 Anybody, from pros to newbies can work on this code because it is very simple (maybe cos im newbie too)
